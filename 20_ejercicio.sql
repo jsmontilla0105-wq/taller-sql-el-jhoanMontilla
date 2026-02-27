@@ -10,3 +10,6 @@ FROM detalle_ventas d
 JOIN productos p ON d.id_producto = p.id_producto
 JOIN ventas v ON d.id_venta = v.id_venta
 GROUP BY p.categoria;
+
+-- Se calcula el ingreso total, unidades vendidas y ticket promedio por categoría.
+-- Resultado: se muestra un resumen financiero agrupado por cada categoría de producto.
