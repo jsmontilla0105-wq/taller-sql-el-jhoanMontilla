@@ -3,3 +3,4 @@
 
 SELECT COUNT(*) AS total_transacciones
 FROM ventas;
+--total_transacciones 1250
