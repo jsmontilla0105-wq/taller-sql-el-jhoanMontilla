@@ -3,3 +3,6 @@
 
 SELECT MAX(total_venta) AS mayor_venta
 FROM ventas;
+
+--"20200"
+
