@@ -4,3 +4,5 @@
 SELECT MAX(precio) AS paracaidas_mas_caro
 FROM productos
 WHERE categoria = 'Paracaídas';
+
+--paracaidas_mas_caro 5200
