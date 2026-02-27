@@ -12,3 +12,7 @@ SELECT
 FROM ventas v
 JOIN clientes c ON v.id_cliente = c.id_cliente
 GROUP BY c.id_cliente;
+
+
+-- Se clasifica a los clientes según el total gastado en tres niveles: Alto, Medio y Bajo valor.
+-- Resultado: se muestra cada cliente junto con su total gastado y su categoría de gasto.
