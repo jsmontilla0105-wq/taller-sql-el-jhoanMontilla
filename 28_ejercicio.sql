@@ -8,3 +8,7 @@ FROM clientes c
 JOIN ventas v ON c.id_cliente = v.id_cliente
 GROUP BY c.id_cliente
 HAVING MAX(v.fecha_venta) < DATE('now', '-180 days');
+
+
+-- Se identifican los clientes cuya última compra fue hace más de 180 días.
+-- Resultado: se muestra el nombre, correo y fecha de la última compra registrada.
