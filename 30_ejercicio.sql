@@ -26,3 +26,7 @@ FROM rango_clientes r
 LEFT JOIN ventas v ON r.id_cliente = v.id_cliente
 GROUP BY r.rango_edad
 ORDER BY r.rango_edad;
+
+
+-- Se realiza un análisis demográfico agrupando los clientes por rangos de edad.
+-- Resultado: se muestra el número de clientes, transacciones realizadas e ingresos generados por cada rango etario.
