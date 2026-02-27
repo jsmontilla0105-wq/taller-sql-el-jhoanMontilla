@@ -13,3 +13,7 @@ WHERE c.id_cliente NOT IN (
     WHERE p2.categoria = 'Accesorios'
 )
 GROUP BY c.id_cliente;
+
+
+-- Se identifican los clientes que nunca han comprado productos de la categoría Accesorios.
+-- Resultado: se muestra el nombre del cliente y su total gastado en otras categorías.
