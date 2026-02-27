@@ -9,3 +9,6 @@ JOIN detalle_ventas d ON v.id_venta = d.id_venta
 GROUP BY c.id_cliente
 ORDER BY variedad_productos DESC
 LIMIT 1;
+
+-- Se identifica el cliente con mayor variedad de productos comprados.
+-- Resultado: Fulgencio del Bermúdez ha adquirido 13 productos distintos, siendo el cliente con mayor diversidad de compra.
