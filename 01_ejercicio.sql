@@ -3,3 +3,4 @@
 
 SELECT COUNT(*) AS total_clientes
 FROM clientes;
+--TOTAL_CLIENTES 250
